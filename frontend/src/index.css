@@ -1,0 +1,151 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+p{
+  color: #9cb656;;
+}
+
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Arial', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.btn-dark-theme {
+  background-color: #ffd700; /* Golden */
+  color: #121212;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-dark-theme:hover {
+  background-color: #b8860b; /* Darker gold */
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar */
+.navbar-dark {
+  background-color: #1e1e1e;
+}
+
+.navbar-nav .nav-link {
+  color: #ffd700;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d4af37; 
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('/images/hero-bg.jpg') center/cover no-repeat;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-section .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.fancy-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffd700;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: background-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: #333;
+}
+
+.contact-form button {
+  background-color: #ffd700;
+  color: #121212;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form button:hover {
+  background-color: #b8860b;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Social Media Links */
+.social-links a {
+  color: #ffd700;
+  margin-right: 20px;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #d4af37;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+

@@ -1,0 +1,27 @@
+.dashoard .course-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard .course-card {
+    /*display: flex;
+    flex-direction: column;*/
+    align-items: evenly;
+    width: 400px;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 30px;
+    text-align: center;
+  }
+  
+  .dashboard .course-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+ 
+  
